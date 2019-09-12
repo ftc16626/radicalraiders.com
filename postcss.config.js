@@ -1,6 +1,6 @@
 /* eslint-disable global-require */
 const purgecss = require("@fullhuman/postcss-purgecss")({
-  content: ["**/*.html", "**/*.js"],
+  content: ["**/*.html", "./src/**/*.js"],
   defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
 });
 
