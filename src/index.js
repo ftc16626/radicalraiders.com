@@ -1,5 +1,3 @@
-console.log("Test");
-
 if (process.env.NODE_ENV !== "production") {
   const link = document.createElement("link");
 
