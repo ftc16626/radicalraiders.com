@@ -1,215 +1,184 @@
-<html>
-  <head>
-    <title>Radical Raiders</title>
-     <link rel="icon" href="images/favicon.ico">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+<!DOCTYPE html>
+<html lang="en">
+<! –– Header ––>
+	<head>
 
-    <link href="styles/main.css" text="text/css" rel="stylesheet" />
-  </head>
-  <body class="bg-blue-200">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="images/favicon.ico">
+		<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+		<title>Radical Raiders</title>
+<style>
+		html {
+  scroll-behavior: smooth;
+}
+</style>
+	</head>
+<! –– Background ––>
+	<body class="font-sans font-thin">
 
-<! –– Nav bar ––>
-    <nav
-      class="flex items-center justify-between flex-wrap bg-red-600 p-6 shadow"
-    >
-      <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <span class="font-semibold text-xl tracking-tight"
-          >Radical Raiders</span
-        >
-      </div>
-      <div class="block md:hidden sm:block">
-        <button
-          class="flex items-center px-3 py-2 border rounded text-red-200 border-red-400 hover:text-white hover:border-white"
-        >
-          <svg
-            class="fill-current h-3 w-3"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
-      </div>
-      <div class="block flex-grow lg:flex items-center md:flex sm:hidden">
-        <div class="text-sm flex-grow">
-          <a
-            href="#About Us"
-            class="block inline-block text-red-200 hover:text-white mr-4"
-          >
-            About Us
-          </a>
-          <a
-            href="#Gallery"
-            class="block inline-block text-red-200 hover:text-white mr-4"
-          >
-            Gallery
-          </a>
-          <a
-            href="#Contact"
-            class="block inline-block text-red-200 hover:text-white"
-          >
-            Contact
-          </a>
-        </div>
-        <div>
-          <a
-            href="#Support"
-            class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-red-500 hover:bg-white"
-            >Support</a
-          >
-        </div>
-      </div>
-    </nav>
-<! –– About Us ––>
-    <div class="About Us">
-      <div class="antialiased max-w-6xl mx-auto my-12 bg-gray-300 px-8 m-8">
+		<div class="w-full h-screen relative text-white">
+			<img src="images/Heroimage.jpg" class="absolute top-0 left-0 w-full h-full object-cover" />
+
+			<header class="z-10 relative mx-auto max-w-6xl px-6 py-8 flex justify-between items-center">
+
+				<a href="#" class="text-xl tracking-wider text-red-600">Radical Raiders</a>
+
+				<ul class="hidden md:flex uppercase text-sm text-red-600">
+					<li>
+						<a href="#" class="text-white">Home</a>
+					</li>
+					<li class="ml-6">
+						<a href="#About">About</a>
+					</li>
+					<li class="ml-6">
+						<a href="#Blog">Blog</a>
+					</li>
+					<li class="ml-6">
+						<a href="#Contact">Contact</a>
+					</li>
+				</ul>
+			</header>
+
+			<div class="absolute top-0 left-0 w-full h-full flex justify-center items-center text-center px-12">
+				<div>
+					<h1 class="text-3xl md:text-6xl leading-tight mb-16">Radical Raiders<br class="hidden md:block" />#16626</h1>
+					<a href="#About" class="border border-white py-4 px-8 hover:bg-white hover:text-black">About Us</a>
+				</div>
+			</div>
+
+		</div>
+<! –– About ––>
+		<div class="py-24 px-6">
+
+			<div class="max-w-6xl mx-auto mb-12">
+
+				<h2 class="mx-auto text-center text-2xl md:text-5xl max-w-3xl leading-tight text-gray-800 mb-12">A Florida AeroCoast FTC Team</h2>
 
 
-        <div class="relative block md:flex items-center">
-          <div class="w-full md:w-1/2 relative z-1 bg-gray-100 rounded shadow-lg overflow-hidden">
-            <div class="text-lg font-medium text-green-500 uppercase p-8 text-center border-b border-gray-200 tracking-wide">FIRST: For Inspiration and Recognition of Science and Technology </div>
-            <div class="block sm:flex md:block lg:flex items-center justify-center">
-              <div class="mt-8 sm:m-8 md:m-0 md:mt-8 lg:m-8 text-center">
-                <div class="inline-flex items-center">
-                  <span class="text-3xl font-medium">660K</span>
-                </div>
-                <span class="block text-sm text-gray-600 mt-2">students in 110+ Countries</span>
-              </div>
-              <div class="mt-4 mb-8 sm:m-8 md:m-0 md:mt-4 md:mb-8 lg:m-8 text-center">
-                <div class="inline-flex items-center">
-                    <span class="text-3xl font-medium">$80M+</span>
-                </div>
-                <span class="block text-sm text-gray-600 mt-2">scholarship oppurtunities from 200+ providers</span>
-              </div>
-            </div>
-            <div class="flex justify-center mt-3">
-              <ul>
-                <li class="flex items-center">
-                  <div class="bg-green-200 rounded-full p-2 fill-current text-green-700">
-                    <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-umbrella"><path class="primary" d="M11 3.05V2a1 1 0 0 1 2 0v1.05A10 10 0 0 1 22 13c0 1.33-2 1.33-2 0a2 2 0 1 0-4 0c0 1.33-2 1.33-2 0a2 2 0 1 0-4 0c0 1.33-2 1.33-2 0a2 2 0 1 0-4 0c0 1.33-2 1.33-2 0a10 10 0 0 1 9-9.95z"/><path class="secondary" d="M11 14a1 1 0 0 1 2 0v5a3 3 0 0 1-6 0 1 1 0 0 1 2 0 1 1 0 0 0 2 0v-5z"/></svg>
-                  </div>
-                  <span class="text-gray-700 text-lg ml-3">77K attendees at annual FIRST Championship</span>
-                </li>
-                <li class="flex items-center mt-3">
-                  <div class="bg-green-200 rounded-full p-2 fill-current text-green-700">
-                    <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-shopping-bag"><path class="primary" d="M5 8h14a1 1 0 0 1 1 .92l1 12A1 1 0 0 1 20 22H4a1 1 0 0 1-1-1.08l1-12A1 1 0 0 1 5 8z"/><path class="secondary" d="M9 10a1 1 0 0 1-2 0V7a5 5 0 1 1 10 0v3a1 1 0 0 1-2 0V7a3 3 0 0 0-6 0v3z"/></svg>
-                  </div>
-                  <span class="text-gray-700 text-lg ml-3">3,600 events in 100+ countries</span>
-                </li>
-                <li class="flex items-center mt-3">
-                  <div class="bg-green-200 rounded-full p-2 fill-current text-green-700">
-                    <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-pie-chart"><path class="primary" d="M14 13h6.78a1 1 0 0 1 .97 1.22A10 10 0 1 1 9.78 2.25a1 1 0 0 1 1.22.97V10a3 3 0 0 0 3 3z"/><path class="secondary" d="M20.78 11H14a1 1 0 0 1-1-1V3.22a1 1 0 0 1 1.22-.97c3.74.85 6.68 3.79 7.53 7.53a1 1 0 0 1-.97 1.22z"/></svg>
-                  </div>
-                  <span class="text-gray-700 text-lg ml-3">20M+ volunteer hours served</span>
-                </li>
-              </ul>
-            </div>
-            <a class="block flex items-center justify-center bg-gray-200 hover:bg-gray-300 p-8 text-md font-semibold text-gray-800 uppercase mt-16" href="https://www.firstinspires.org" target="_blank">Go to FIRST</a>
-          </div>
-          <div class="w-full md:w-1/2 relative z-0 px-8 md:px-0 md:py-16">
-            <div class="bg-blue-900 text-white rounded-b md:rounded-b-none md:rounded-r shadow-lg overflow-hidden">
-              <div class="text-lg font-medium uppercase p-8 text-center border-b border-blue-800 tracking-wide">FTC: FIRST Tech CHallenge</div>
-              <div class="text-center text-md sm:text-md max-w-sm mx-auto mt-8 text-blue-200 px-8 lg:px-0">
-                It’s way more than building robots. FIRST Tech Challenge teams (up to 15 team members, grades 7-12) are challenged to design, build, program, and operate robots to compete in a head-to-head challenge in an alliance format. Guided by adult coaches and mentors, students develop STEM skills and practice engineering principles, while realizing the value of hard work, innovation, and working as a team.
-              </div>
-              <a class="flex items-center justify-center bg-blue-800 hover:bg-blue-700 p-8 text-md font-semibold text-gray-300 uppercase mt-8" href="https://www.firstinspires.org/robotics/ftc" target="_blank">
-                <span>Go to FTC</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-<! –– Gallery ––>
-          <div id="Gallery" class="carousel relative shadow-2xl bg-white m-10">
-          <div class="carousel-inner relative overflow-hidden w-full">
-            <!--Slide 1-->
-            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-            <div class="carousel-item absolute opacity-0" style="height:70vh;">
-              <div class="block h-full bg-no-repeat bg-center bg-cover w-full text-white text-5xl text-center" style="background-image: url(images/download.jpg)">Slide 1</div>
-            </div>
-            <label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-            <label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+				<p class="mb-6 text-gray-600 mx-auto max-w-lg text-center leading-relaxed">Something about us idk.</p>
 
-            <!--Slide 2-->
-            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-            <div class="carousel-item absolute opacity-0" style="height:70vh;">
-              <div class="block h-full bg-no-repeat bg-center bg-cover w-full text-white text-5xl text-center" style="background-image: url(images/download.jpg)">Slide 2</div>
-            </div>
-            <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-            <label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
 
-            <!--Slide 3-->
-            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-            <div class="carousel-item absolute opacity-0" style="height:70vh;">
-              <div class="block h-full bg-no-repeat bg-center bg-cover w-full text-white text-5xl text-center" style="background-image: url(images/download.jpg)">Slide 3</div>
-            </div>
-            <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-            <label for="carousel-1" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
 
-            <!-- Add additional indicators for each slide-->
-            <ol class="carousel-indicators">
-              <li class="inline-block mr-3">
-                <label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-              </li>
-              <li class="inline-block mr-3">
-                <label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-              </li>
-              <li class="inline-block mr-3">
-                <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-              </li>
-            </ol>
+			</div>
 
-          </div>
-          </div>
+
+			<div id="About" class="max-w-5xl mx-auto flex flex-wrap items-start">
+
+				<div class="w-full md:w-1/2 p-4 mb-12">
+					<img src="images/FTCLogo.png" class="block w-full h-auto mb-12" />
+					<a target="_blank" href="https://www.firstinspires.org/robotics/ftc" class="block text-2xl text-black text-center mb-6">More About FTC</a>
+					<p class="mb-6 text-gray-800 text-center leading-relaxed text-md">It’s more than just building robots. FIRST Tech Challenge teams must design, build, program, and operate robots to compete in a head-to-head challenge. Guided by adult coaches and mentors, students learn STEM skills and engineering principles</p>
+				</div>
+
+				<div class=" md:w-1/2 p-4  mb-12">
+					<img src="images/Skystone.jpg" class="block w-full h-auto mb-12" />
+					<a href="#" class="block text-2xl text-black text-center mb-6">More About This Year's Season</a>
+					<p class="mb-6 text-gray-800 text-center leading-relaxed text-md">This year's season theme puts humans and droid allies together to build the tallest towers. FTC teams must push through obstacles that stand in their way to build a future megastructure, finishing the tower with thier own capstone to symbolize their reach into the sky, and dreams of a hopeful future.</p>
+				</div>
+			</div>
+		</div>
+<! –– Blog ––>
+				<main id="Blog" class="py-12">
+				  <div class="px-12">
+				    <div class="block md:flex justify-between md:-mx-2">
+				      <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
+				        <div class="bg-white rounded-lg overflow-hidden shadow relative">
+				          <img class="h-56 w-full object-cover object-center" src="https://images.unsplash.com/photo-1457282367193-e3b79e38f207?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1654&q=80" alt="">
+				          <div class="p-4 h-auto md:h-40 lg:h-48">
+				            <a href="#" class="block text-blue-500 hover:text-blue-600 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+				              Competition #1
+				            </a>
+				            <div class="text-gray-600 text-sm leading-relaxed block md:text-xs lg:text-sm">
+				             First Competition of the Season
+				            </div>
+				          </div>
+				        </div>
+				      </div>
+				      <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
+				        <div class="bg-white rounded-lg overflow-hidden shadow relative">
+				          <img class="h-56 w-full object-cover object-center" src="https://images.unsplash.com/photo-1465188162913-8fb5709d6d57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
+				          <div class="p-4 h-auto md:h-40 lg:h-48">
+				            <a href="#" class="block text-blue-500 hover:text-blue-600 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+				              Competition #2
+				            </a>
+				            <div class="text-gray-600 text-sm leading-relaxed block md:text-xs lg:text-sm">
+				              Second Competition of the Season
+				            </div>
+				          </div>
+				        </div>
+				      </div>
+				      <div class="w-full lg:w-1/3 md:mx-2 mb-4 md:mb-0">
+				        <div class="bg-white rounded-lg overflow-hidden shadow relative">
+				          <img class="h-56 w-full object-cover object-center" src="https://images.unsplash.com/photo-1467238307002-480ffdd260f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
+				          <div class="p-4 h-auto md:h-40 lg:h-48">
+				            <a href="#" class="block text-blue-500 hover:text-blue-600 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+				              Competition #3
+				            </a>
+				            <div class="text-gray-600 text-sm leading-relaxed block md:text-xs lg:text-sm">
+				              Third Competition of teh Season
+				            </div>
+				          </div>
+				        </div>
+				      </div>
+				    </div>
+				  </div>
+				</main>
+
+
+			</body>
 <! –– Contact form ––>
-      <form id= "Contact" class="antialiased max-w-6xl mx-auto my-12 bg-gray-300 px-8 p-2">
-  <div class="flex flex-wrap -mx-3 mb-6">
-    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-        First Name
-      </label>
-      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
-      <p class="text-red-500 text-xs italic">Please fill out this field.</p>
-    </div>
-    <div class="w-full md:w-1/2 px-3">
-      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-        Last Name
-      </label>
-      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
-    </div>
-  </div>
-  <div class="flex flex-wrap -mx-3 mb-6">
-    <div class="w-full px-3">
-      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-        E-mail
-      </label>
-      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email">
-      <p class="text-gray-600 text-xs italic">Some tips - as long as needed</p>
-    </div>
-  </div>
-  <div class="flex flex-wrap -mx-3 mb-6">
-    <div class="w-full px-3">
-      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-        Message
-      </label>
-      <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
-      <p class="text-gray-600 text-xs italic">Re-size can be disabled by set by resize-none / resize-y / resize-x / resize</p>
-    </div>
-  </div>
-  <div class="md:flex md:items-center">
-    <div class="md:w-1/3">
-      <button class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-        Send
-      </button>
-    </div>
-    <div class="md:w-2/3"></div>
-  </div>
-</form>
-  </body>
+		<form id= "Contact" class="antialiased max-w-6xl mx-auto my-12 bg-gray-300 px-8 p-2 rounded-lg">
+		  <div class="flex flex-wrap -mx-3 mb-6">
+		    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+		      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+		        First Name
+		      </label>
+		      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+		      <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+		    </div>
+		    <div class="w-full md:w-1/2 px-3">
+		      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+		        Last Name
+		      </label>
+		      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
+		    </div>
+		  </div>
+		  <div class="flex flex-wrap -mx-3 mb-6">
+		    <div class="w-full px-3">
+		      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+		        E-mail
+		      </label>
+		      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email">
+		      <p class="text-gray-600 text-xs italic">Some tips - as long as needed</p>
+		    </div>
+		  </div>
+		  <div class="flex flex-wrap -mx-3 mb-6">
+		    <div class="w-full px-3">
+		      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+		        Message
+		      </label>
+		      <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
+		      <p class="text-gray-600 text-xs italic">Re-size can be disabled by set by resize-none / resize-y / resize-x / resize</p>
+		    </div>
+		  </div>
+		  <div class="md:flex md:items-center">
+		    <div class="md:w-1/3">
+		      <button class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+		        Send
+		      </button>
+		    </div>
+		    <div class="md:w-2/3"></div>
+		  </div>
+		</form>
+<! –– Footer ––>
+		<div class="bg-gray-900 text-gray-100 text-center flex justify-center px-6 py-12">
+
+			<a href="#" class="mx-6 hover:text-gray-600">123 Address</a>
+			<a href="#" class="mx-6 hover:text-gray-600">0800 123 456</a>
+			<a href="#" class="mx-6 hover:text-gray-600">my@email.com</a>
+
+		</div>
+
 </html>
